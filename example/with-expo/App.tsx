@@ -7,9 +7,10 @@ import { CurrentSSID } from './components/CurrentSSID';
 import { Disconnect } from './components/Disconnect';
 
 const askLocationPermission = async () => {
+  alert("localtion permission")
   const res = await requestForegroundPermissionsAsync();
   // ˆ? res: { status: 'granted' | 'denied' | 'undetermined' }
-  console.log(res);
+  alert(JSON.stringify(res));
 };
 
 export default function App() {

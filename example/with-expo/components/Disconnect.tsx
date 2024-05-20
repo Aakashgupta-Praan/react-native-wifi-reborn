@@ -19,7 +19,7 @@ export const Disconnect = () => {
     <Section title="Disconnect">
       <Button title="Disconnect" onPress={handleDisconnect} />
       <Text>{response}</Text>
-      <Text style={styles.error}>{error}</Text>
+      <Text style={styles.error}> {error.toString()}</Text>
     </Section>
   );
 };

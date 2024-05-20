@@ -29,7 +29,8 @@
       "package": "com.rnwifi.withexpo"
     },
     "plugins": [
-      "react-native-wifi-reborn"
+      "react-native-wifi-reborn",
+      "expo-build-properties"
     ]
   }
 }
